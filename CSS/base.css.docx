@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: cambria, helvetica;
+} 
+
+h1 {
+    font-family: 'Rochester'; 
+    color: hotpink;
+}
+
+h2  {
+    font-size:  18px;
+    color: pink;
+}
+
+p   {
+    font-size:  16px;
+    line-height: 24px;
+}
+
+img {
+    border: 5px solid #cccccc;
+    margin: 0 5% 0 5%
+    padding: 5px; /* TRouBLe */
+    width: 25%;
+    }
+    
+    
