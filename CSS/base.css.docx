@@ -9,13 +9,12 @@ h1 {
     color: hotpink;
     font-size: 65px;
     font-weight: 500;
-    border: 5px solid #cccccc;
 }
 
 header nav  {
     font-size: 14px
     float: center;
-    margin-top: 10px;
+  margin-top: -50px;
 }
 
 footer {
