@@ -1,22 +1,55 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: cambria, helvetica;
+}
+
+body {
+   font-size: 16px
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+header {
+    background-color: #cccccc;
+    color: #ffffff
+    height: 50px;
+    font-weight: 500;
     text-align: center;
 }
 
-h1 {
-    font-family: 'Rochester';
-    color: hotpink;
-    font-size: 65px;
-    font-weight: 500;
+header h1 {
+    float: center;
+    font-family: 'Rochester', helvetica, arial, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
 }
 
-header nav  {
-    font-size: 14px
-    float: center;
-  margin-top: -50px;
+header a {
+    color: #ffccff;
+    text-decoration: none;
+}
+
+header a:link {}
+header a:visited {}
+header a: hover {
+    color: #ffffff
+}
+header a:active{
+    text-decoration: underline;
+}
+
+article {
+    clear: both;
+    border: 3px solid #ffccff;
+    padding: 30px;
+    margin: 30px;
 }
 
 footer {
     font-size: 9px;
+    text-align: center;
 }
