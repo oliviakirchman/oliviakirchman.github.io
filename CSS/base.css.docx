@@ -53,3 +53,36 @@ footer {
     font-size: 9px;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        padding: 3%;
+    }
+    
+    nav {
+        width: 100%;
+    }
+    
+    #content {
+       clear: left; 
+       margin-left: 0%;
+       width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
