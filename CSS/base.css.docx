@@ -60,7 +60,12 @@ footer {
         padding: 3%;
     }
     
+    h1, h2 {
+        text-alighn: center;
+    }
+    
     nav {
+        border: 0;
         width: 100%;
     }
     
