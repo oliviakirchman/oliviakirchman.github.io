@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 500;
     padding: 0;
     font-family: cambria, helvetica;
 }
@@ -14,7 +14,7 @@ p {
 }
 
 header {
-    background-color: #cccccc;
+    background-color: ;
     color: #ffffff
     height: 50px;
     font-weight: 500;
@@ -29,8 +29,11 @@ header h1 {
 }
 
 header a {
-    color: #ffccff;
+    background-color: none;
+    color: #76EEC6;
     text-decoration: none;
+    height: 50px;
+    padding-right: 100;
 }
 
 header a:link {}
@@ -44,50 +47,12 @@ header a:active{
 
 article {
     clear: both;
-    border: 3px solid #ffccff;
-    padding: 30px;
-    margin: 30px;
+    border: 3px solid #76EEC6;
+    padding: 35px;
+    margin: 150px;
 }
 
 footer {
     font-size: 9px;
     text-align: center;
 }
-
-@media screen and (max-width: 600px) {
-    
-    body {
-        padding: 3%;
-    }
-    
-    h1, h2 {
-        text-alighn: center;
-    }
-    
-    nav {
-        border: 0;
-        width: 100%;
-    }
-    
-    #content {
-       clear: left; 
-       margin-left: 0%;
-       width: 100%;
-    }
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
