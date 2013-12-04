@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 100;
+    margin: 00;
     padding: 0;
     font-family: cambria, helvetica;
 }
@@ -26,6 +26,7 @@ header h1 {
     font-family: 'Rochester', helvetica, arial, sans-serif;
     font-size: 60px;
     font-weight: 400;
+    margin: 30px;
 }
 
 header a {
@@ -36,11 +37,6 @@ header a {
     padding-right: 100;
 }
 
-nav {
-    margin-right: 16px;
-    margin-left: 16px;
-}
-
 }
 header a:active{
     text-decoration: underline;
@@ -49,8 +45,8 @@ header a:active{
 article {
     clear: both;
     border: 3px solid #76EEC6;
-    padding: 40px;
-    margin: 200px;
+    padding: 15px;
+    margin: 250px;
 }
 
 footer {
