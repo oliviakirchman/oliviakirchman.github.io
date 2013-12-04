@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 500;
+    margin: 100;
     padding: 0;
     font-family: cambria, helvetica;
 }
@@ -36,10 +36,11 @@ header a {
     padding-right: 100;
 }
 
-header a:link {}
-header a:visited {}
-header a: hover {
-    color: #ffffff
+nav {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
 }
 header a:active{
     text-decoration: underline;
@@ -48,8 +49,8 @@ header a:active{
 article {
     clear: both;
     border: 3px solid #76EEC6;
-    padding: 35px;
-    margin: 150px;
+    padding: 40px;
+    margin: 200px;
 }
 
 footer {
